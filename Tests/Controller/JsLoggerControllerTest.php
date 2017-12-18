@@ -10,11 +10,12 @@ namespace Dawen\Bundle\JsLoggerBundle\Tests\Controller;
 
 use Dawen\Bundle\JsLoggerBundle\Component\JsLoggerInterface;
 use Dawen\Bundle\JsLoggerBundle\Controller\JsLoggerController;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\KernelEvents;
 
-class JsLoggerControllerTest extends \PHPUnit_Framework_TestCase
+class JsLoggerControllerTest extends TestCase
 {
     /** @var \PHPUnit_Framework_MockObject_MockObject */
     private $jsLogger;

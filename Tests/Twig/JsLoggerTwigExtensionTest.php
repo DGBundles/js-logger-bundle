@@ -3,8 +3,9 @@
 namespace Dawen\Bundle\JsLoggerBundle\Tests\Component;
 
 use Dawen\Bundle\JsLoggerBundle\Twig\JsLoggerTwigExtension;
+use PHPUnit\Framework\TestCase;
 
-class JsLoggerTwigExtensionTest extends \PHPUnit_Framework_TestCase
+class JsLoggerTwigExtensionTest extends TestCase
 {
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject

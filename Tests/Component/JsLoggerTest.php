@@ -4,8 +4,9 @@ namespace Dawen\Bundle\JsLoggerBundle\Tests\Component;
 
 use Dawen\Bundle\JsLoggerBundle\Component\JsLogger;
 use Dawen\Bundle\JsLoggerBundle\Component\JsLoggerInterface;
+use PHPUnit\Framework\TestCase;
 
-class JsLoggerTest extends \PHPUnit_Framework_TestCase
+class JsLoggerTest extends TestCase
 {
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject
